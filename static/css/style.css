@@ -1,18 +1,37 @@
-.u-title {
-
-}
-
 .Header{
-
+	margin-top: 3rem;
+	background-image: url('../images/portada.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding: 1.5rem 1.2rem;
 
 }
 	.Header-imageContainer{
-
+		margin: 0;
 	}
 
-	.Header-name{
+		.Header-image{
+			width: 150px;
+			border: 5px solid gray;
+			border-radius: 50%;
+		}
 
-	}
+		.Header-name, .Header-link {
+			color: white;
+		}
+
+		.Header-link{
+			font-size: 2.2rem;
+			font-weight: bold;
+			text-decoration: none;
+			
+		}
+
+		.Header-name{
+			margin: 0;
+		}
 
 .MainMenu{
 	background: #1E1E1E;
@@ -27,15 +46,15 @@
 		margin: 0;
 		padding: 0;
 	}
-	.MainMenu-item{
-		display: inline-block;
-		padding-right: 1rem;
-	}
-		.MainMenu-link{
-			color: #00DBFF;
-			text-decoration: none;
-			line-height: 3rem;
+		.MainMenu-item{
+			display: inline-block;
+			padding-right: 1rem;
 		}
+			.MainMenu-link{
+				color: #00DBFF;
+				text-decoration: none;
+				line-height: 3rem;
+			}
 
 .Profile{
 

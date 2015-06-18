@@ -1,3 +1,11 @@
+.u-title{
+	color: #00CCFF;
+	border-bottom: 2px dashed #00CCFF;
+	text-align: center;
+	font-weight: normal;
+	padding-bottom: 0.5rem;
+}
+
 .Header{
 	margin-top: 3rem;
 	background-image: url('../images/portada.jpg');
@@ -57,12 +65,33 @@
 			}
 
 .Profile{
-
+	text-align: center;
 }
+	.Profile-link{
+		background: orange;
+		color: white;
+		text-decoration: none;
+		padding: 0.5rem 0.5rem;
+		border-radius: 12rem;
+		margin-right: 0.5rem;
+	}
 
 .Work{
-
+	margin-top: 2rem;
+	text-align: center;
 }
+	.Work-imageContainer{
+		margin: 0;
+	}
+	.Work-item{
+		display: inline-block;
+		margin: 1rem 0.5rem;
+	}
+	.Work-description{
+		font-size: 1.1rem;
+		font-style: italic;
+		color: #515151;
+	}
 
 .Footer{
 

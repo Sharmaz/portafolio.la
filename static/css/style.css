@@ -1,0 +1,50 @@
+.u-title {
+
+}
+
+.Header{
+
+
+}
+	.Header-imageContainer{
+
+	}
+
+	.Header-name{
+
+	}
+
+.MainMenu{
+	background: #1E1E1E;
+	text-align: center;
+	height: 3rem;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+	.MainMenu-list{
+		margin: 0;
+		padding: 0;
+	}
+	.MainMenu-item{
+		display: inline-block;
+		padding-right: 1rem;
+	}
+		.MainMenu-link{
+			color: #00DBFF;
+			text-decoration: none;
+			line-height: 3rem;
+		}
+
+.Profile{
+
+}
+
+.Work{
+
+}
+
+.Footer{
+
+}

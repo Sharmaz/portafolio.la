@@ -3,36 +3,38 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="description" content="Aqui encontrarán muestra de mi trabajo, hablidades de desarrollo web y demas locuras">
-	<link rel="stylesheet" href="../static/css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="../static/css/normalize.css">
+	<link rel="stylesheet" href="../static/css/style.css">
+	
 	<title>Portafolio</title>
 </head>
 <body>
 	<header class="Header">
 		<nav class="MainMenu">
 		<ul class="MainMenu-list">
-			<li class="MainMenu-item"><a class="Main-menuLink"href="#">Yo</a></li>
-			<li class="MainMenu-item"><a class="Main-menuLink"href="#">perfil</a></li>
-			<li class="MainMenu-item"><a class="Main-menuLink"href="#">Trabajo</a></li>
-			<li class="MainMenu-item"><a class="Main-menuLink"href="#">Contacto</a></li>
-			<li class="MainMenu-item"><a class="Main-menuLink"href="#">Hobbies</a></li>
+			<li class="MainMenu-item"><a class="MainMenu-link"href="#">Yo</a></li>
+			<li class="MainMenu-item"><a class="MainMenu-link"href="#">perfil</a></li>
+			<li class="MainMenu-item"><a class="MainMenu-link"href="#">Trabajo</a></li>
+			<li class="MainMenu-item"><a class="MainMenu-link"href="#">Contacto</a></li>
+			<li class="MainMenu-item"><a class="MainMenu-link"href="#">Hobbies</a></li>
 		</ul>
 		</nav>
 		<figure class="Header-imageContainer">
-			<img src="avatar.jpg" alt="Imagen Personal" class="Header-image">
+			<img src="../static/images/avatar.jpg" alt="Imagen Personal" class="Header-image">
 			<figcaption class="Header-imageDescription"><a href="http://twitter.com/elSharmaz/" target="_blank" class="Header-link">Ivan Robles</a></figcaption>
 			<p class="Header-name">Ivan Robles</p>
 		</figure>
 	</header>
 	<section class="Profile">
-		<h2>Mi Perfil</h2>
+		<h2 class="Profile-title u-title">Mi Perfil</h2>
 		<p class="Profile-description">No hay casualidad, pero si causalidad. Si llegaste aqui puedes ver mi portafolio, contactame ;)</p>
 		<a class="Profile-Link"href="#Facebook" target="_blank">Ivan Robles</a>
 		<a class="Profile-Link"href="#Twitter" target="_blank">Ivan Robles</a>
 		<a class="Profile-Link"href="#Github" target="_blank">Ivan Robles</a>
 	</section>
 	<section class="Work">
-		<h2>Mi Trabajo</h2>
+		<h2 class="u-title">Mi Trabajo</h2>
 		<article class="Work-item">
 			<figure>
 				<img class="Work-image" src="angemi_site.jpg" alt="Sitio web">
@@ -56,7 +58,7 @@
 				<img class="Work-image" src="angemi_site.jpg" alt="Sitio web">
 				<figcaption class="Work-description">Website de Angemi repostería y café</figcaption>
 			</figure>
-		</article>class="Work-image" 
+		</article> 
 	</section>
 	<footer class="Footer">
 		<h3>Contacto</h3>
